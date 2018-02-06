@@ -1,0 +1,28 @@
+﻿  engineer.cpp
+c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(5): error C2955: 'Engineer': 클래스 템플릿을(를) 사용하려면 템플릿 인수 목록이 필요합니다.
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.h(10): note: 'Engineer' 선언을 참조하십시오.
+c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(6): error C2244: 'Engineer::getWheelsInCar': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(5): note: 'Engineer::getWheelsInCar' 선언을 참조하십시오.
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(6): note: 정의
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(6): note: 'int Engineer::getWheelsInCar(Car *)'
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(6): note: 기존 선언
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(6): note: 'int Engineer<T>::getWheelsInCar(Car *)'
+c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(12): error C2244: 'Engineer::setMechanic': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(11): note: 'Engineer::setMechanic' 선언을 참조하십시오.
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(12): note: 정의
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(12): note: 'void Engineer::setMechanic(T)'
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(12): note: 기존 선언
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(12): note: 'void Engineer<T>::setMechanic(T)'
+c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(18): error C2244: 'Engineer::getMechanic': 함수 정의를 기존 선언과 일치시킬 수 없습니다.
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(17): note: 'Engineer::getMechanic' 선언을 참조하십시오.
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(18): note: 정의
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(18): note: 'T Engineer::getMechanic(void)'
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(18): note: 기존 선언
+  c:\users\duddn\source\repos\datastructure\datastructure\engineer.cpp(18): note: 'T Engineer<T>::getMechanic(void)'
+  DataStructure.cpp
+  Car.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  suv.cpp
+  motorcycle.cpp
+  코드를 생성하고 있습니다...
